@@ -1143,8 +1143,8 @@
       constructor(_http, _router) {
         this._http = _http;
         this._router = _router;
-        this.registerUrl = 'http://localhost:3000/api/register';
-        this.loginUrl = 'http://localhost:3000/api/login';
+        this.registerUrl = 'http://localhost:3000/register';
+        this.loginUrl = 'http://localhost:3000/login';
       }
 
       register(user) {
@@ -1834,7 +1834,7 @@
     let StudentRegistrationService = class StudentRegistrationService {
       constructor(_http) {
         this._http = _http;
-        this.studentRegUrl = "http://localhost:3000/api/home";
+        this.studentRegUrl = "http://localhost:3000/home";
       }
 
       studentReg(student) {
