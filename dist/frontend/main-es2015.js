@@ -36,6 +36,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/file-upload/file-upload.component.html":
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/file-upload/file-upload.component.html ***!
+  \**********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"common-format\">\n    <div class=\"page-wrapper mt-3 mb-3\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-md-10 offset-md-1\">\n                    <div class=\"card\">\n                        <div class=\"card-body\">\n                            <form #uploadData=\"ngForm\" (ngSubmit)=\"uploadFile()\" action=\"\">\n                                <h6 class=\"form-caption\">Documents</h6>\n                                <hr>\n                                <div class=\"form-row\">\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"marksheet\">Marksheet</label>\n                                        <div class=\"custom-input-file\">\n                                            <input [(ngModel)]=\"fileUpload.marksheet\" type=\"file\" name=\"marksheet\" id=\"marksheet\" class=\"form-control\" (change)='getFile($event)' />\n                                        </div>\n                                    </div>\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"photo\">Photo</label>\n                                        <div class=\"custom-input-file\">\n                                            <input [(ngModel)]=\"fileUpload.photo\" type=\"file\" name=\"photo\" id=\"photo\" class=\"form-control\" (change)='getFile($event)' />\n                                        </div>\n                                    </div>\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"signature\">Signature</label>\n                                        <div class=\"custom-input-file\">\n                                            <input [(ngModel)]=\"fileUpload.signature\" type=\"file\" name=\"signature\" id=\"signature\" class=\"form-control\" (change)='getFile($event)' />\n                                        </div>\n                                    </div>\n                                </div>\n                                <div class=\"text-right mt-3\">\n                                    <button type=\"submit\" class=\"btn btn-info\">Upload Files</button>\n                                    <button (click)=\"prevPage()\" class=\"btn btn-secondary ml-2\">Back</button>\n                                </div>\n                            </form>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>                        \n");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/footer/footer.component.html":
 /*!************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/footer/footer.component.html ***!
@@ -71,7 +84,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"common-format\">\n    <div class=\"page-wrapper mt-3 mb-3\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-md-10 offset-md-1\">\n                    <div class=\"card\">\n                        <div class=\"card-header\">\n                            <h4 class=\"card-title text-center\">Student Registration</h4>\n                        </div>\n                        <div class=\"card-body\">\n                            \n                            <form action=\"\">\n                                <h6 class=\"form-caption\">Personal Information</h6>\n                                <hr>\n                                <div class=\"form-row\">\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"fname\">First Name</label>\n                                        <input [(ngModel)]=\"studentRegData.fname\" type=\"text\" name=\"fname\" id=\"fname\" class=\"form-control\"/>\n                                    </div>\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"mname\">Middle Name</label>\n                                        <input [(ngModel)]=\"studentRegData.mname\" type=\"text\" name=\"mname\" id=\"mname\" class=\"form-control\" />\n                                    </div>\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"lname\">Last Name</label>\n                                        <input [(ngModel)]=\"studentRegData.lname\" type=\"text\" name=\"lname\" id=\"lname\" class=\"form-control\" />\n                                    </div>\n                                </div>\n\n                                <div class=\"form-row\">\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"fathersName\">Father's Name</label>\n                                        <input [(ngModel)]=\"studentRegData.fathersName\" type=\"text\" name=\"fathersName\" id=\"fathersName\" class=\"form-control\" />\n                                    </div>\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"mothersName\">Mother's Name</label>\n                                        <input [(ngModel)]=\"studentRegData.mothersName\" type=\"text\" name=\"mothersName\" id=\"mothersName\" class=\"form-control\" />\n                                    </div>\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"dob\">Date Of Birth</label>\n                                        <input [(ngModel)]=\"studentRegData.dob\" type=\"date\" name=\"dob\" id=\"dob\" class=\"form-control\" />\n                                    </div>\n                                </div>\n\n                                <div class=\"form-row\">\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"gender\">Gender</label>\n                                        <div class=\"form-control border-0\">\n                                            <div class=\"custom-control custom-radio  d-inline-block mr-2\">\n                                                <input [(ngModel)]=\"studentRegData.gender\" type=\"radio\" class=\"custom-control-input\" name=\"gender\" id=\"male\" value=\"male\"/>\n                                                <label for=\"male\" class=\"custom-control-label\">Male</label>\n                                            </div>\n                                            <div class=\"custom-control custom-radio d-inline-block mr-2\">\n                                                <input [(ngModel)]=\"studentRegData.gender\" type=\"radio\"  class=\"custom-control-input\" name=\"gender\" id=\"female\" value=\"female\"/>\n                                                <label for=\"female\" class=\"custom-control-label\">Female</label>\n                                            </div>\n                                            <div class=\"custom-control custom-radio  d-inline-block\">\n                                                <input [(ngModel)]=\"studentRegData.gender\" type=\"radio\"  class=\"custom-control-input\" name=\"gender\" id=\"trans\" value=\"trans\"/>\n                                                <label for=\"trans\" class=\"custom-control-label\">Trans</label>\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"nationality\">Nationality</label>\n                                        <select [(ngModel)]=\"studentRegData.nationality\" name=\"nationality\" id=\"nationality\" class=\"form-control\">\n                                            <option value=\"Select any Category\">Select any Category</option>\n                                            <option value=\"Indian\">Indian</option>\n                                            <option value=\"NRI\">NRI</option>\n                                        </select>\n                                    </div>\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"caste\">Caste</label>\n                                        <select [(ngModel)]=\"studentRegData.caste\" name=\"caste\" id=\"caste\" class=\"form-control\">\n                                            <option value=\"Select any Category\">Select any Category</option>\n                                            <option value=\"UR\">UR</option>\n                                            <option value=\"OBC\">OBC</option>\n                                            <option value=\"SC\">SC</option>\n                                            <option value=\"ST\">ST</option>\n                                        </select>\n                                    </div>\n                                </div>\n\n                                <div class=\"form-row\">\n                                    <div class=\"form-group col-md-12\">\n                                        <label for=\"address\">Address</label>\n                                        <input [(ngModel)]=\"studentRegData.address\" type=\"text\" name=\"address\" id=\"address\" class=\"form-control\" />\n                                    </div>\n                                </div>\n\n                                <div class=\"form-row\">\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"city\">City</label>\n                                        <input [(ngModel)]=\"studentRegData.city\" type=\"text\" name=\"city\" id=\"city\" class=\"form-control\" />\n                                    </div>\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"state\">State</label>\n                                        <input [(ngModel)]=\"studentRegData.state\" type=\"text\" name=\"state\" id=\"state\" class=\"form-control\" />\n                                    </div>\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"country\">Country</label>\n                                        <input [(ngModel)]=\"studentRegData.country\" type=\"text\" name=\"country\" id=\"country\" class=\"form-control\" />\n                                    </div>\n                                </div>\n\n\n                                <h6 class=\"form-caption\">Academic Information</h6>\n                                <hr>\n                                \n                                <table class=\"table\">\n                                    <thead>\n                                        <tr>\n                                            <th>Examination</th>\n                                            <th>Board/University</th>\n                                            <th>Subject</th>\n                                            <th>Year</th>\n                                            <th>Percentage/Grade</th>\n                                        </tr>\n                                    </thead>\n                                    <tbody>\n                                        <tr>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <input [(ngModel)]=\"studentRegData.ssExamination\" type=\"text\" name=\"ss-examination\" id=\"ss-examination\" class=\"form-control\" level=\"ss\" value=\"Senior Secondary\" />\n                                                </div>\n                                            </td>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <input [(ngModel)]=\"studentRegData.ssBoard\" type=\"text\" name=\"ss-board\" id=\"ss-board\" level=\"ss\" class=\"form-control\" />\n                                                </div>\n                                            </td>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <input [(ngModel)]=\"studentRegData.ssSubject\" type=\"text\" name=\"ss-subject\" id=\"ss-subject\" level=\"ss\" class=\"form-control\" />\n                                                </div>\n                                            </td>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <input [(ngModel)]=\"studentRegData.ssYear\" type=\"text\" name=\"ss-year\" id=\"ss-year\" level=\"ss\" class=\"form-control\" />\n                                                </div>\n                                            </td>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <input [(ngModel)]=\"studentRegData.ssPercentage\" type=\"text\" name=\"ss-percentage\" id=\"ss-percentage\" level=\"ss\" class=\"form-control\" />\n                                                </div>\n                                            </td>\n                                        </tr>\n                                        <tr>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <input [(ngModel)]=\"studentRegData.hsExamination\" type=\"text\" name=\"hs-examination\" id=\"hs-examination\" class=\"form-control\" level=\"hs\" value=\"Higher Secondary\" />\n                                                </div>\n                                            </td>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <input [(ngModel)]=\"studentRegData.hsBoard\" type=\"text\" name=\"hs-board\" id=\"hs-board\" level=\"hs\" class=\"form-control\" />\n                                                </div>\n                                            </td>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <input [(ngModel)]=\"studentRegData.hsSubject\" type=\"text\" name=\"hs-subject\" id=\"hs-subject\" level=\"hs\" class=\"form-control\" />\n                                                </div>\n                                            </td>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <input [(ngModel)]=\"studentRegData.hsYear\" type=\"text\" name=\"hs-year\" id=\"hs-year\" level=\"hs\" class=\"form-control\" />\n                                                </div>\n                                            </td>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <input [(ngModel)]=\"studentRegData.hsPercentage\" type=\"text\" name=\"hs-percentage\" id=\"hs-percentage\" level=\"hs\" class=\"form-control\" />\n                                                </div>\n                                            </td>\n                                        </tr>\n                                    </tbody>\n                                </table>\n\n                                <div class=\"form-row\">\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"applyFor\">Apply For</label>\n                                        <select [(ngModel)]=\"studentRegData.applyFor\" name=\"applyFor\" id=\"applyFor\" class=\"form-control\">\n                                            <option value=\"Select any one course\">Select any one course</option>\n                                            <option value=\"BA\">BA</option>\n                                            <option value=\"BBA\">BBA</option>\n                                            <option value=\"BCA\">BCA</option>\n                                            <option value=\"BSC\">BSC</option>\n                                            <option value=\"MA\">MA</option>\n                                            <option value=\"MBA\">MBA</option>\n                                            <option value=\"MCA\">MCA</option>\n                                            <option value=\"MSC\">MSC</option>\n                                        </select>\n                                    </div>\n\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"stream\">Stream</label>\n                                        <select [(ngModel)]=\"studentRegData.stream\" name=\"stream\" id=\"stream\" class=\"form-control\">\n                                            <option value=\"Select any one stream\">Select any one stream</option>\n                                            <option value=\"Computer\">Computer</option>\n                                            <option value=\"Maths\">Maths</option>\n                                            <option value=\"Biotech\">Biotech</option>\n                                            <option value=\"Physics\">Physics</option>\n                                        </select>\n                                    </div>\n\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"medium\">Medium</label>\n                                        <select [(ngModel)]=\"studentRegData.medium\" name=\"medium\" id=\"medium\" class=\"form-control\">\n                                            <option value=\"Select any one medium\">Select any one stream</option>\n                                            <option value=\"English\">English</option>\n                                            <option value=\"Hindi\">Hindi</option>\n                                        </select>\n                                    </div>\n                                </div>\n\n                                <div class=\"form-row\">\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"centerCity\">Center City</label>\n                                        <select [(ngModel)]=\"studentRegData.centerCity\" name=\"centerCity\" id=\"centerCity\" class=\"form-control\" >\n                                            <!-- <option value=\"Select any one center city\">Select any one center city</option>\n                                            <option value=\"Delhi\">Delhi</option>\n                                            <option value=\"Agra\">Agra</option>\n                                            <option value=\"Jaipur\">Jaipur</option>\n                                            <option value=\"Indore\">Indore</option>\n                                            <option value=\"Mumbai\">Mumbai</option> --> \n                                            <ng-container *ngFor=\"let center of centers\">\n                                                <option value={{center.centerAddress}}>{{center.centerAddress}}</option>\n                                            </ng-container>\n                                        </select>\n                                    </div>\n                                    <div class=\"form-group col-md-8\">\n                                        <label for=\"centerName\">Center Name</label>\n                                        <select [(ngModel)]=\"studentRegData.centerName\" name=\"centerName\" id=\"centerName\" class=\"form-control\">\n                                            <!-- <option value=\"Select any one center name\">Select any one center name</option>\n                                            <option value=\"st xavier college of science\">st xavier college of science</option>\n                                            <option value=\"Modern college of computers\">Modern college of computers</option>\n                                            <option value=\"Malwa institute of technology and science\">Malwa institute of technology and science</option>\n                                            <option value=\"Christient eminent college\">Christient eminent college</option>\n                                            <option value=\"Deli college\">Deli college</option> -->\n                                            <ng-container *ngFor=\"let center of centers\">   \n                                                <option *ngIf=\"center.availableSeats\" value={{center.centerName}}>  {{center.centerName}} <span>{{center.availableSeats}}</span></option>\n                                            </ng-container>\n                                        </select>\n                                    </div>\n                                </div>\n\n                                <h6 class=\"form-caption\">Documents</h6>\n                                <hr>\n\n                                <div class=\"form-row\">\n                                    \n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"photo\">Photo</label>\n                                        <div class=\"custom-input-file\">\n                                            <input [(ngModel)]=\"studentRegData.photo\" type=\"file\" name=\"photo\" id=\"photo\" class=\"form-control\" (change)='getFile($event)' />\n                                        </div>\n                                    </div>\n                                    \n                                </div>\n\n                                <div class=\"text-right\">\n                                    <button (click)=\"studentRegistration()\" class=\"btn btn-info\">Submit</button>\n                                </div>\n\n                            </form>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>                ");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"common-format\">\n    <div class=\"page-wrapper mt-3 mb-3\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-md-10 offset-md-1\">\n                    <div class=\"card\">\n                        <div class=\"card-header\">\n                            <h4 class=\"card-title text-center\">Student Registration</h4>\n                        </div>\n                        <div class=\"card-body\">\n                            \n                            <form action=\"\" #studentRegForm=\"ngForm\" (ngSubmit)=\"studentRegistration()\" novalidate>\n                                <h6 class=\"form-caption\">Personal Information</h6>\n                                <hr>\n                                <div class=\"form-row\">\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"fname\" class=\"required-item\">First Name</label>\n                                        <input #fname=\"ngModel\" [(ngModel)]=\"studentRegData.fname\" [class.is-invalid]=\"fname.invalid && fname.touched\" type=\"text\" name=\"fname\" id=\"fname\" class=\"form-control\" required/>\n                                        <div [class.d-none]=\"fname.valid || fname.untouched\" class=\"invalid-feedback\">Please enter your first name</div>\n                                    </div>\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"mname\">Middle Name</label>\n                                        <input #mname=\"ngModel\" [(ngModel)]=\"studentRegData.mname\" type=\"text\" name=\"mname\" id=\"mname\" class=\"form-control\" />\n                                    </div>\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"lname\" class=\"required-item\">Last Name</label>\n                                        <input #lname=\"ngModel\" [class.is-invalid]=\"lname.invalid && lname.touched\" [(ngModel)]=\"studentRegData.lname\" type=\"text\" name=\"lname\" id=\"lname\" class=\"form-control\" required/>\n                                        <div [class.d-none]=\"lname.valid || lname.untouched\" class=\"invalid-feedback\">Please enter your last name</div>\n                                    </div>\n                                </div>\n\n                                <div class=\"form-row\">\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"fathersName\" class=\"required-item\">Father's Name</label>\n                                        <input #fathersName=\"ngModel\" [class.is-invalid]=\"fathersName.invalid && fathersName.touched\" [(ngModel)]=\"studentRegData.fathersName\" type=\"text\" name=\"fathersName\" id=\"fathersName\" class=\"form-control\" required/>\n                                        <div [class.d-none]=\"fathersName.valid || fathersName.untouched\" class=\"invalid-feedback\">Please enter your fathers name</div>\n                                    </div>\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"mothersName\" class=\"required-item\">Mother's Name</label>\n                                        <input #mothersName=\"ngModel\" [class.is-invalid]=\"mothersName.invalid && mothersName.touched\" [(ngModel)]=\"studentRegData.mothersName\" type=\"text\" name=\"mothersName\" id=\"mothersName\" class=\"form-control\" required/>\n                                        <div [class.d-none]=\"mothersName.valid || mothersName.untouched\" class=\"invalid-feedback\">Please enter your mothers name</div>\n                                    </div>\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"dob\" class=\"required-item\">Date Of Birth</label>\n                                        <input #dob=\"ngModel\" [class.is-invalid]=\"dob.invalid && dob.touched\" [(ngModel)]=\"studentRegData.dob\" type=\"date\" name=\"dob\" id=\"dob\" class=\"form-control\" required/>\n                                        <div [class.d-none]=\"dob.valid || dob.untouched\" class=\"invalid-feedback\">Please enter your date of birth</div>\n                                    </div>\n                                </div>\n\n                                <div class=\"form-row\">\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"gender\">Gender</label>\n                                        <div class=\"form-control border-0\">\n                                            <div class=\"custom-control custom-radio  d-inline-block mr-2\">\n                                                <input [(ngModel)]=\"studentRegData.gender\" type=\"radio\" class=\"custom-control-input\" name=\"gender\" id=\"male\" value=\"male\"/>\n                                                <label for=\"male\" class=\"custom-control-label\">Male</label>\n                                            </div>\n                                            <div class=\"custom-control custom-radio d-inline-block mr-2\">\n                                                <input [(ngModel)]=\"studentRegData.gender\" type=\"radio\"  class=\"custom-control-input\" name=\"gender\" id=\"female\" value=\"female\"/>\n                                                <label for=\"female\" class=\"custom-control-label\">Female</label>\n                                            </div>\n                                            <div class=\"custom-control custom-radio  d-inline-block\">\n                                                <input [(ngModel)]=\"studentRegData.gender\" type=\"radio\"  class=\"custom-control-input\" name=\"gender\" id=\"trans\" value=\"trans\"/>\n                                                <label for=\"trans\" class=\"custom-control-label\">Trans</label>\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"nationality\" class=\"required-item\">Nationality</label>\n                                        <select #nationality=\"ngModel\" [class.is-invalid]=\"nationality.invalid && nationality.touched\" [(ngModel)]=\"studentRegData.nationality\" name=\"nationality\" id=\"nationality\" class=\"form-control\" required>\n                                            <option value=\"Select any Category\">Select any Category</option>\n                                            <option value=\"Indian\">Indian</option>\n                                            <option value=\"NRI\">NRI</option>\n                                        </select>\n                                        <div [class.d-none]=\"nationality.valid || nationality.untouched\" class=\"invalid-feedback\">Please select Nationality</div>\n                                    </div>\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"caste\" class=\"required-item\">Caste</label>\n                                        <select #caste=\"ngModel\" [class.is-invalid]=\"caste.invalid && caste.touched\" [(ngModel)]=\"studentRegData.caste\" name=\"caste\" id=\"caste\" class=\"form-control\" required>\n                                            <option value=\"Select any Category\">Select any Category</option>\n                                            <option value=\"UR\">UR</option>\n                                            <option value=\"OBC\">OBC</option>\n                                            <option value=\"SC\">SC</option>\n                                            <option value=\"ST\">ST</option>\n                                        </select>\n                                        <div [class.d-none]=\"caste.valid || caste.untouched\" class=\"invalid-feedback\">Please select your caste</div>\n                                    </div>\n                                </div>\n\n                                <div class=\"form-row\">\n                                    <div class=\"form-group col-md-12\">\n                                        <label for=\"address\" class=\"required-item\">Address</label>\n                                        <input #address=\"ngModel\" [class.is-invalid]=\"address.invalid && address.touched\" [(ngModel)]=\"studentRegData.address\" type=\"text\" name=\"address\" id=\"address\" class=\"form-control\" required/>\n                                        <div [class.d-none]=\"address.valid || address.untouched\" class=\"invalid-feedback\">Please enter your postal address</div>\n                                    </div>\n                                </div>\n\n                                <div class=\"form-row\">\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"city\" class=\"required-item\">City</label>\n                                        <input #city=\"ngModel\" [class.is-invalid]=\"city.invalid && city.touched\" [(ngModel)]=\"studentRegData.city\" type=\"text\" name=\"city\" id=\"city\" class=\"form-control\" required/>\n                                        <div [class.d-none]=\"city.valid || city.untouched\" class=\"invalid-feedback\">Please enter your city</div>\n                                    </div>\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"state\" class=\"required-item\">State</label>\n                                        <input #state=\"ngModel\" [class.is-invalid]=\"state.invalid && state.touched\" [(ngModel)]=\"studentRegData.state\" type=\"text\" name=\"state\" id=\"state\" class=\"form-control\" required/>\n                                        <div [class.d-none]=\"state.valid || state.untouched\" class=\"invalid-feedback\">Please enter your state</div>\n                                    </div>\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"country\" class=\"required-item\">Country</label>\n                                        <input #country=\"ngModel\" [class.is-invalid]=\"country.invalid && country.touched\" [(ngModel)]=\"studentRegData.country\" type=\"text\" name=\"country\" id=\"country\" class=\"form-control\" required/>\n                                        <div [class.d-none]=\"country.valid || country.untouched\" class=\"invalid-feedback\">Please enter your country</div>\n                                    </div>\n                                </div>\n\n\n                                <h6 class=\"form-caption\">Academic Information</h6>\n                                <hr>\n                                \n                                <table class=\"table\">\n                                    <thead>\n                                        <tr>\n                                            <th>Examination</th>\n                                            <th>Board/University</th>\n                                            <th>Subject</th>\n                                            <th>Year</th>\n                                            <th>Percentage/Grade</th>\n                                        </tr>\n                                    </thead>\n                                    <tbody>\n                                        <tr>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <label for=\"\">Senior Secondary</label>\n                                                    <!-- <input #ssExam=\"ngModel\" [(ngModel)]=\"studentRegData.ssExamination\" type=\"text\" name=\"ss-examination\" id=\"ss-examination\" class=\"form-control\" level=\"ss\" value=\"Senior Secondary\" /> -->\n                                                </div>\n                                            </td>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <input #ssBoard=\"ngModel\" [class.is-invalid]=\"ssBoard.invalid && ssBoard.touched\" [(ngModel)]=\"studentRegData.ssBoard\" type=\"text\" name=\"ss-board\" id=\"ss-board\" level=\"ss\" class=\"form-control\" required/>\n                                                </div>\n                                            </td>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <input #ssSubject=\"ngModel\" [class.is-invalid]=\"ssSubject.invalid && ssSubject.touched\" [(ngModel)]=\"studentRegData.ssSubject\" type=\"text\" name=\"ss-subject\" id=\"ss-subject\" level=\"ss\" class=\"form-control\" required/>\n                                                </div>\n                                            </td>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <input #ssYear=\"ngModel\" [class.is-invalid]=\"ssYear.invalid && ssYear.touched\" [(ngModel)]=\"studentRegData.ssYear\" type=\"text\" name=\"ss-year\" id=\"ss-year\" level=\"ss\" class=\"form-control\" required/>\n                                                </div>\n                                            </td>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <input #ssPercentage=\"ngModel\" [class.is-invalid]=\"ssPercentage.invalid && ssPercentage.touched\" [(ngModel)]=\"studentRegData.ssPercentage\" type=\"text\" name=\"ss-percentage\" id=\"ss-percentage\" level=\"ss\" class=\"form-control\" required/>\n                                                </div>\n                                            </td>\n                                        </tr>\n                                        <tr>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <label for=\"\">Higher Secondary</label>\n                                                    <!-- <input [(ngModel)]=\"studentRegData.hsExamination\" type=\"text\" name=\"hs-examination\" id=\"hs-examination\" class=\"form-control\" level=\"hs\" value=\"Higher Secondary\" /> -->\n                                                </div>\n                                            </td>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <input #hsBoard=\"ngModel\" [class.is-invalid]=\"hsBoard.invalid && hsBoard.touched\" [(ngModel)]=\"studentRegData.hsBoard\" type=\"text\" name=\"hs-board\" id=\"hs-board\" level=\"hs\" class=\"form-control\" required/>\n                                                </div>\n                                            </td>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <input #hsSubject=\"ngModel\" [class.is-invalid]=\"hsSubject.invalid && hsSubject.touched\" [(ngModel)]=\"studentRegData.hsSubject\" type=\"text\" name=\"hs-subject\" id=\"hs-subject\" level=\"hs\" class=\"form-control\" required/>\n                                                </div>\n                                            </td>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <input #hsYear=\"ngModel\" [class.is-invalid]=\"hsYear.invalid && hsYear.touched\" [(ngModel)]=\"studentRegData.hsYear\" type=\"text\" name=\"hs-year\" id=\"hs-year\" level=\"hs\" class=\"form-control\" required/>\n                                                </div>\n                                            </td>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <input #hsPercentage=\"ngModel\" [class.is-invalid]=\"hsPercentage.invalid && hsPercentage.touched\" [(ngModel)]=\"studentRegData.hsPercentage\" type=\"text\" name=\"hs-percentage\" id=\"hs-percentage\" level=\"hs\" class=\"form-control\" required/>\n                                                </div>\n                                            </td>\n                                        </tr>\n                                    </tbody>\n                                </table>\n\n                                <div class=\"form-row\">\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"applyFor\" class=\"required-item\">Apply For</label>\n                                        <select #applyFor=\"ngModel\" [class.is-invalid]=\"applyFor.invalid && applyFor.touched\" [(ngModel)]=\"studentRegData.applyFor\" name=\"applyFor\" id=\"applyFor\" class=\"form-control\" required>\n                                            <option value=\"Select any one course\">Select any one course</option>\n                                            <option value=\"BA\">BA</option>\n                                            <option value=\"BBA\">BBA</option>\n                                            <option value=\"BCA\">BCA</option>\n                                            <option value=\"BSC\">BSC</option>\n                                            <option value=\"MA\">MA</option>\n                                            <option value=\"MBA\">MBA</option>\n                                            <option value=\"MCA\">MCA</option>\n                                            <option value=\"MSC\">MSC</option>\n                                        </select>\n                                        <div [class.d-none]=\"applyFor.valid || applyFor.untouched\" class=\"invalid-feedback\">Please select course</div>\n                                    </div>\n\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"stream\" class=\"required-item\">Stream</label>\n                                        <select #stream=\"ngModel\" [class.is-invalid]=\"stream.invalid && stream.touched\" [(ngModel)]=\"studentRegData.stream\" name=\"stream\" id=\"stream\" class=\"form-control\" required>\n                                            <option value=\"Select any one stream\">Select any one stream</option>\n                                            <option value=\"Computer\">Computer</option>\n                                            <option value=\"Maths\">Maths</option>\n                                            <option value=\"Biotech\">Biotech</option>\n                                            <option value=\"Physics\">Physics</option>\n                                        </select>\n                                        <div [class.d-none]=\"stream.valid || stream.untouched\" class=\"invalid-feedback\">Please select any stream</div>\n                                    </div>\n\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"medium\" class=\"required-item\">Medium</label>\n                                        <select #medium=\"ngModel\" [class.is-invalid]=\"medium.invalid && medium.touched\" [(ngModel)]=\"studentRegData.medium\" name=\"medium\" id=\"medium\" class=\"form-control\" required>\n                                            <option value=\"Select any one medium\">Select any one stream</option>\n                                            <option value=\"English\">English</option>\n                                            <option value=\"Hindi\">Hindi</option>\n                                        </select>\n                                        <div [class.d-none]=\"medium.valid || medium.untouched\" class=\"invalid-feedback\">Please select any medium</div>\n                                    </div>\n                                </div>\n\n                                <div class=\"form-row\">\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"centerCity\" class=\"required-item\">Center City</label>\n                                        <select #centerCity=\"ngModel\" [class.is-invalid]=\"centerCity.invalid && centerCity.touched\" [(ngModel)]=\"studentRegData.centerCity\" name=\"centerCity\" id=\"centerCity\" class=\"form-control\" required>\n                                            <!-- <option value=\"Select any one center city\">Select any one center city</option>\n                                            <option value=\"Delhi\">Delhi</option>\n                                            <option value=\"Agra\">Agra</option>\n                                            <option value=\"Jaipur\">Jaipur</option>\n                                            <option value=\"Indore\">Indore</option>\n                                            <option value=\"Mumbai\">Mumbai</option> --> \n                                            <ng-container *ngFor=\"let center of centers\">\n                                                <option value={{center.centerAddress}}>{{center.centerAddress}}</option>\n                                            </ng-container>\n                                        </select>\n                                        <div [class.d-none]=\"centerCity.valid || centerCity.untouched\" class=\"invalid-feedback\">Please select any one city</div>\n                                    </div>\n                                    <div class=\"form-group col-md-8\">\n                                        <label for=\"centerName\" class=\"required-item\">Center Name</label>\n                                        <select #centerName=\"ngModel\" [class.is-invalid]=\"centerName.invalid && centerName.touched\" [(ngModel)]=\"studentRegData.centerName\" name=\"centerName\" id=\"centerName\" class=\"form-control\" required>\n                                            <!-- <option value=\"Select any one center name\">Select any one center name</option>\n                                            <option value=\"st xavier college of science\">st xavier college of science</option>\n                                            <option value=\"Modern college of computers\">Modern college of computers</option>\n                                            <option value=\"Malwa institute of technology and science\">Malwa institute of technology and science</option>\n                                            <option value=\"Christient eminent college\">Christient eminent college</option>\n                                            <option value=\"Deli college\">Deli college</option> -->\n                                            <ng-container *ngFor=\"let center of centers\">   \n                                                <option *ngIf=\"center.availableSeats\" value={{center.centerName}}>  {{center.centerName}} <span>{{center.availableSeats}}</span></option>\n                                            </ng-container>\n                                        </select>\n                                        <div [class.d-none]=\"centerName.valid || centerName.untouched\" class=\"invalid-feedback\">Please select any one center</div>\n                                    </div>\n                                </div>\n\n                                <!-- <h6 class=\"form-caption\">Documents</h6>\n                                <hr>\n\n                                <div class=\"form-row\">\n                                    \n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"photo\">Photo</label>\n                                        <div class=\"custom-input-file\">\n                                            <input [(ngModel)]=\"studentRegData.photo\" type=\"file\" name=\"photo\" id=\"photo\" class=\"form-control\" (change)='getFile($event)' />\n                                        </div>\n                                    </div>\n                                    \n                                </div> -->\n\n                                <div class=\"text-right\">\n                                    <button type=\"submit\" [disabled]=\"studentRegData.invalid\" class=\"btn btn-info\">Save</button>\n                                    <button (click)=\"nextPage()\" class=\"btn btn-secondary ml-2\">Next</button>\n                                </div>\n\n                            </form>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>                ");
 
 /***/ }),
 
@@ -98,6 +111,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<p>page-not-found works!</p>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/preview/preview.component.html":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/preview/preview.component.html ***!
+  \**************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"common-format\">\n    <div class=\"page-wrapper mt-3 mb-3\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-md-10 offset-md-1\">\n                    <div class=\"card\">\n                        <div class=\"card-header\">\n                            <h4 class=\"card-title text-center\">Application Preview</h4>\n                        </div>\n                        <div class=\"card-body\">\n                            <div class=\"text-right\" id=\"photo\">\n                               \n                            </div>\n                            <!-- <form action=\"\" #studentRegData=\"ngForm\" (ngSubmit)=\"studentRegistration()\" novalidate> -->\n                                <h6 class=\"form-caption\">Personal Information</h6>\n                                <hr>\n                                <div class=\"form-row\">\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"fname\" class=\"required-item\">First Name</label>\n                                        <p>{{studentData.fname}}</p>\n                                    </div>\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"mname\">Middle Name</label>\n                                        <p>{{studentData.mname}}</p>\n                                    </div>\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"lname\" class=\"required-item\">Last Name</label>\n                                        <p>{{studentData.lname}}</p>\n                                    </div>\n                                </div>\n\n                                <div class=\"form-row\">\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"fathersName\" class=\"required-item\">Father's Name</label>\n                                        <p>{{studentData.fathersName}}</p>\n                                    </div>\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"mothersName\" class=\"required-item\">Mother's Name</label>\n                                        <p>{{studentData.mothersName}}</p>\n                                    </div>\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"dob\" class=\"required-item\">Date Of Birth</label>\n                                        <p>{{studentData.dob}}</p>\n                                    </div>\n                                </div>\n\n                                <div class=\"form-row\">\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"gender\">Gender</label>\n                                        <p>{{studentData.gender}}</p>\n                                    </div>\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"nationality\" class=\"required-item\">Nationality</label>\n                                        <p>{{studentData.nationality}}</p>\n                                    </div>\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"caste\" class=\"required-item\">Caste</label>\n                                        <p>{{studentData.caste}}</p>\n                                    </div>\n                                </div>\n\n                                <div class=\"form-row\">\n                                    <div class=\"form-group col-md-12\">\n                                        <label for=\"address\" class=\"required-item\">Address</label>\n                                        <p>{{studentData.address}}</p>\n                                    </div>\n                                </div>\n\n                                <div class=\"form-row\">\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"city\" class=\"required-item\">City</label>\n                                        <p>{{studentData.city}}</p>\n                                    </div>\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"state\" class=\"required-item\">State</label>\n                                        <p>{{studentData.state}}</p>\n                                    </div>\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"country\" class=\"required-item\">Country</label>\n                                        <p>{{studentData.country}}</p>\n                                    </div>\n                                </div>\n\n\n                                <h6 class=\"form-caption\">Academic Information</h6>\n                                <hr>\n                                \n                                <table class=\"table\">\n                                    <thead>\n                                        <tr>\n                                            <th>Examination</th>\n                                            <th>Board/University</th>\n                                            <th>Subject</th>\n                                            <th>Year</th>\n                                            <th>Percentage/Grade</th>\n                                        </tr>\n                                    </thead>\n                                    <tbody>\n                                        <tr>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <label for=\"\">Senior Secondary</label>\n                                                    <p>{{studentData.ssExamination}}</p>\n                                                </div>\n                                            </td>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <!-- <input #ssBoard=\"ngModel\" [class.is-invalid]=\"ssBoard.invalid && ssBoard.touched\" [(ngModel)]=\"studentRegData.ssBoard\" type=\"text\" name=\"ss-board\" id=\"ss-board\" level=\"ss\" class=\"form-control\" required/> -->\n                                                    <p>{{studentData.ssBoard}}</p>\n                                                </div>\n                                            </td>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <!-- <input #ssSubject=\"ngModel\" [class.is-invalid]=\"ssSubject.invalid && ssSubject.touched\" [(ngModel)]=\"studentRegData.ssSubject\" type=\"text\" name=\"ss-subject\" id=\"ss-subject\" level=\"ss\" class=\"form-control\" required/> -->\n                                                    <p>{{studentData.ssSubject}}</p>\n                                                </div>\n                                            </td>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <!-- <input #ssYear=\"ngModel\" [class.is-invalid]=\"ssYear.invalid && ssYear.touched\" [(ngModel)]=\"studentRegData.ssYear\" type=\"text\" name=\"ss-year\" id=\"ss-year\" level=\"ss\" class=\"form-control\" required/> -->\n                                                    <p>{{studentData.ssYear}}</p>\n                                                </div>\n                                            </td>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <!-- <input #ssPercentage=\"ngModel\" [class.is-invalid]=\"ssPercentage.invalid && ssPercentage.touched\" [(ngModel)]=\"studentRegData.ssPercentage\" type=\"text\" name=\"ss-percentage\" id=\"ss-percentage\" level=\"ss\" class=\"form-control\" required/> -->\n                                                    <p>{{studentData.ssPercentage}}</p>\n                                                </div>\n                                            </td>\n                                        </tr>\n                                        <tr>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <label for=\"\">Higher Secondary</label>\n                                                    <!-- <input [(ngModel)]=\"studentRegData.hsExamination\" type=\"text\" name=\"hs-examination\" id=\"hs-examination\" class=\"form-control\" level=\"hs\" value=\"Higher Secondary\" /> -->\n                                                    <p>{{studentData.hsExamination}}</p>\n                                                </div>\n                                            </td>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <!-- <input #hsBoard=\"ngModel\" [class.is-invalid]=\"hsBoard.invalid && hsBoard.touched\" [(ngModel)]=\"studentRegData.hsBoard\" type=\"text\" name=\"hs-board\" id=\"hs-board\" level=\"hs\" class=\"form-control\" required/> -->\n                                                    <p>{{studentData.hsBoard}}</p>\n                                                </div>\n                                            </td>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <!-- <input #hsSubject=\"ngModel\" [class.is-invalid]=\"hsSubject.invalid && hsSubject.touched\" [(ngModel)]=\"studentRegData.hsSubject\" type=\"text\" name=\"hs-subject\" id=\"hs-subject\" level=\"hs\" class=\"form-control\" required/> -->\n                                                    <p>{{studentData.hsSubject}}</p>\n                                                </div>\n                                            </td>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <!-- <input #hsYear=\"ngModel\" [class.is-invalid]=\"hsYear.invalid && hsYear.touched\" [(ngModel)]=\"studentRegData.hsYear\" type=\"text\" name=\"hs-year\" id=\"hs-year\" level=\"hs\" class=\"form-control\" required/> -->\n                                                    <p>{{studentData.hsYear}}</p>\n                                                </div>\n                                            </td>\n                                            <td>\n                                                <div class=\"form-group\">\n                                                    <!-- <input #hsPercentage=\"ngModel\" [class.is-invalid]=\"hsPercentage.invalid && hsPercentage.touched\" [(ngModel)]=\"studentRegData.hsPercentage\" type=\"text\" name=\"hs-percentage\" id=\"hs-percentage\" level=\"hs\" class=\"form-control\" required/> -->\n                                                    <p>{{studentData.hsPercentage}}</p>\n                                                </div>\n                                            </td>\n                                        </tr>\n                                    </tbody>\n                                </table>\n\n                                <div class=\"form-row\">\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"applyFor\" class=\"required-item\">Apply For</label>\n                                        <p>{{studentData.applyFor}}</p>\n                                    </div>\n\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"stream\" class=\"required-item\">Stream</label>\n                                        <p>{{studentData.stream}}</p>\n                                    </div>\n\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"medium\" class=\"required-item\">Medium</label>\n                                        <p>{{studentData.medium}}</p>\n                                    </div>\n                                </div>\n\n                                <div class=\"form-row\">\n                                    <div class=\"form-group col-md-4\">\n                                        <label for=\"centerCity\" class=\"required-item\">Center City</label>\n                                        <p>{{studentData.centerCity}}</p>\n                                    </div>\n                                    <div class=\"form-group col-md-8\">\n                                        <label for=\"centerName\" class=\"required-item\">Center Name</label>\n                                        <p>{{studentData.centerName}}</p>\n                                    </div>\n                                </div>\n                                <div class=\"text-right\" id=\"signature\">\n                                    \n                                </div>\n                                <div class=\"text-right\">\n                                    <!-- <button type=\"submit\" [disabled]=\"studentRegData.invalid\" class=\"btn btn-info\">Save</button>\n                                    <button (click)=\"nextPage()\" class=\"btn btn-secondary ml-2\">Next</button> -->\n                                    <button class=\"btn btn-primary\" (click)=\"print()\">Print</button>\n                                </div>\n\n                            <!-- </form> -->\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>                ");
 
 /***/ }),
 
@@ -381,6 +407,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _login_login_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./login/login.component */ "./src/app/login/login.component.ts");
 /* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
 /* harmony import */ var _auth_guard__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./auth.guard */ "./src/app/auth.guard.ts");
+/* harmony import */ var _file_upload_file_upload_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./file-upload/file-upload.component */ "./src/app/file-upload/file-upload.component.ts");
+/* harmony import */ var _preview_preview_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./preview/preview.component */ "./src/app/preview/preview.component.ts");
+
+
 
 
 
@@ -394,6 +424,8 @@ const routes = [
     { path: 'register', component: _register_register_component__WEBPACK_IMPORTED_MODULE_4__["RegisterComponent"] },
     { path: 'login', component: _login_login_component__WEBPACK_IMPORTED_MODULE_5__["LoginComponent"] },
     { path: 'home', component: _home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"], canActivate: [_auth_guard__WEBPACK_IMPORTED_MODULE_7__["AuthGuard"]] },
+    { path: 'file-upload', component: _file_upload_file_upload_component__WEBPACK_IMPORTED_MODULE_8__["FileUploadComponent"] },
+    { path: 'preview', component: _preview_preview_component__WEBPACK_IMPORTED_MODULE_9__["PreviewComponent"] },
     { path: '**', component: _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_3__["PageNotFoundComponent"] }
 ];
 let AppRoutingModule = class AppRoutingModule {
@@ -477,6 +509,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _student_registration_service__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./student-registration.service */ "./src/app/student-registration.service.ts");
 /* harmony import */ var _auth_guard__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./auth.guard */ "./src/app/auth.guard.ts");
 /* harmony import */ var _token_interceptor_service__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./token-interceptor.service */ "./src/app/token-interceptor.service.ts");
+/* harmony import */ var _file_upload_file_upload_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./file-upload/file-upload.component */ "./src/app/file-upload/file-upload.component.ts");
+/* harmony import */ var _preview_preview_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./preview/preview.component */ "./src/app/preview/preview.component.ts");
+
+
 
 
 
@@ -499,6 +535,8 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _header_header_component__WEBPACK_IMPORTED_MODULE_7__["HeaderComponent"],
             _footer_footer_component__WEBPACK_IMPORTED_MODULE_8__["FooterComponent"],
             _app_routing_module__WEBPACK_IMPORTED_MODULE_5__["routingComponent"],
+            _file_upload_file_upload_component__WEBPACK_IMPORTED_MODULE_13__["FileUploadComponent"],
+            _preview_preview_component__WEBPACK_IMPORTED_MODULE_14__["PreviewComponent"],
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -619,6 +657,159 @@ AuthService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     })
 ], AuthService);
 
+
+
+/***/ }),
+
+/***/ "./src/app/data-share.service.ts":
+/*!***************************************!*\
+  !*** ./src/app/data-share.service.ts ***!
+  \***************************************/
+/*! exports provided: DataShareService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DataShareService", function() { return DataShareService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm2015/index.js");
+/* harmony import */ var _filesInfo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./filesInfo */ "./src/app/filesInfo.ts");
+/* harmony import */ var _studentInfo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./studentInfo */ "./src/app/studentInfo.ts");
+
+
+
+
+
+let DataShareService = class DataShareService {
+    constructor() {
+        this.stuData = new rxjs__WEBPACK_IMPORTED_MODULE_2__["BehaviorSubject"](new _studentInfo__WEBPACK_IMPORTED_MODULE_4__["StudentInfo"]());
+        this.upldData = new rxjs__WEBPACK_IMPORTED_MODULE_2__["BehaviorSubject"](new _filesInfo__WEBPACK_IMPORTED_MODULE_3__["FilesInfo"]());
+        this.currStudData = this.stuData.asObservable();
+        this.currUpldData = this.upldData.asObservable();
+    }
+    changeStudData(studentData) {
+        this.stuData.next(studentData);
+    }
+    changeUpldData(uploadedData) {
+        this.upldData.next(uploadedData);
+    }
+};
+DataShareService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+        providedIn: 'root'
+    })
+], DataShareService);
+
+
+
+/***/ }),
+
+/***/ "./src/app/file-upload/file-upload.component.scss":
+/*!********************************************************!*\
+  !*** ./src/app/file-upload/file-upload.component.scss ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2ZpbGUtdXBsb2FkL2ZpbGUtdXBsb2FkLmNvbXBvbmVudC5zY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/file-upload/file-upload.component.ts":
+/*!******************************************************!*\
+  !*** ./src/app/file-upload/file-upload.component.ts ***!
+  \******************************************************/
+/*! exports provided: FileUploadComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FileUploadComponent", function() { return FileUploadComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var _data_share_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../data-share.service */ "./src/app/data-share.service.ts");
+
+
+
+
+
+let FileUploadComponent = class FileUploadComponent {
+    constructor(_http, _route, _sharedData) {
+        this._http = _http;
+        this._route = _route;
+        this._sharedData = _sharedData;
+        this.files = [];
+        this.fileUpload = {};
+        // fileReq = ['marksheet', 'photo', 'signature'];
+        this.selectedFile = null;
+    }
+    ngOnInit() {
+        this._sharedData.currUpldData.subscribe(files => this.fileUpload = files);
+    }
+    prevPage() {
+        this._route.navigate(['/home']);
+    }
+    getFile(event) {
+        this.selectedFile = event.target.files[0];
+        const input = event.target;
+        const inputName = document.createElement('span');
+        inputName.className = 'file-name';
+        inputName.textContent = this.selectedFile.name;
+        input.parentNode.append(inputName);
+        console.log(this.selectedFile);
+        console.log(this.selectedFile.name);
+        this.selectedFile['finalName'] = event.target.name;
+        this.files.push(this.selectedFile);
+        console.log(this.files);
+    }
+    uploadFile() {
+        console.log('uploads', this.files);
+        this._sharedData.changeUpldData(this.files);
+        for (const file of this.files) {
+            const fd = new FormData();
+            fd.append('file', file);
+            this._http.post('http://localhost:3000/file-upload', fd)
+                .subscribe(res => { console.log(res); }, err => { console.log(err); });
+        }
+        this._route.navigate(['/preview']);
+    }
+};
+FileUploadComponent.ctorParameters = () => [
+    { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"] },
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"] },
+    { type: _data_share_service__WEBPACK_IMPORTED_MODULE_4__["DataShareService"] }
+];
+FileUploadComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
+        selector: 'app-file-upload',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./file-upload.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/file-upload/file-upload.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./file-upload.component.scss */ "./src/app/file-upload/file-upload.component.scss")).default]
+    })
+], FileUploadComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/filesInfo.ts":
+/*!******************************!*\
+  !*** ./src/app/filesInfo.ts ***!
+  \******************************/
+/*! exports provided: FilesInfo */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FilesInfo", function() { return FilesInfo; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+
+class FilesInfo {
+}
 
 
 /***/ }),
@@ -745,14 +936,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _student_registration_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../student-registration.service */ "./src/app/student-registration.service.ts");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var _data_share_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../data-share.service */ "./src/app/data-share.service.ts");
+
+
 
 
 
 
 let HomeComponent = class HomeComponent {
-    constructor(_studentRegService, _http) {
+    constructor(_studentRegService, _http, _route, _sharedData) {
         this._studentRegService = _studentRegService;
         this._http = _http;
+        this._route = _route;
+        this._sharedData = _sharedData;
         this.studentRegData = {
             fname: "",
             mname: "",
@@ -781,26 +978,43 @@ let HomeComponent = class HomeComponent {
             stream: "",
             medium: "",
             centerCity: "",
-            centerName: "",
-            photo: null
+            centerName: ""
         };
+        this.uploadedFiles = {};
+        this.studentInfo = [];
         this.centers = [];
         this.selectedFile = null;
     }
     ngOnInit() {
         this.getCenter();
         console.log(this.centers);
+        // this._sharedData.changeStudData.subscribe(stuData => this.studentRegData = stuData);
+        this._sharedData.currStudData.subscribe(stuData => this.studentInfo = stuData);
+        this._sharedData.currUpldData.subscribe(files => this.uploadedFiles = files);
+    }
+    nextPage() {
+        if (confirm('Have you save the data?')) {
+            this._route.navigate(['/file-upload']);
+        }
+        else {
+            return;
+        }
     }
     getFile(event) {
         this.selectedFile = event.target.files[0];
         console.log(this.selectedFile);
+        console.log(this.selectedFile.name);
     }
     studentRegistration() {
         console.log(this.studentRegData);
-        const fd = new FormData();
-        fd.append('file', this.selectedFile, this.selectedFile.name);
-        this._http.post('http://localhost:3000/home', fd)
-            .subscribe(res => { console.log(res); }, err => { console.log(err); });
+        // const fd = new FormData();
+        // fd.append('file', this.selectedFile, this.selectedFile.name)
+        // this._http.post('http://localhost:3000/fileUpload', fd)
+        // .subscribe(
+        //   res => { console.log(res) },
+        //   err => { console.log(err) }
+        // )
+        this._sharedData.changeStudData(this.studentRegData);
         this._studentRegService.studentReg(this.studentRegData)
             .subscribe((err) => console.log(err), (res) => {
             console.log(res);
@@ -817,7 +1031,9 @@ let HomeComponent = class HomeComponent {
 };
 HomeComponent.ctorParameters = () => [
     { type: _student_registration_service__WEBPACK_IMPORTED_MODULE_2__["StudentRegistrationService"] },
-    { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"] }
+    { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"] },
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"] },
+    { type: _data_share_service__WEBPACK_IMPORTED_MODULE_5__["DataShareService"] }
 ];
 HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -942,6 +1158,87 @@ PageNotFoundComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
+/***/ "./src/app/preview/preview.component.scss":
+/*!************************************************!*\
+  !*** ./src/app/preview/preview.component.scss ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3ByZXZpZXcvcHJldmlldy5jb21wb25lbnQuc2NzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/preview/preview.component.ts":
+/*!**********************************************!*\
+  !*** ./src/app/preview/preview.component.ts ***!
+  \**********************************************/
+/*! exports provided: PreviewComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PreviewComponent", function() { return PreviewComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _data_share_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../data-share.service */ "./src/app/data-share.service.ts");
+
+
+
+let PreviewComponent = class PreviewComponent {
+    constructor(_sharedData) {
+        this._sharedData = _sharedData;
+    }
+    ngOnInit() {
+        // this._sharedData.changeStudData.subscribe(studData => this.studentData);
+        this._sharedData.currStudData.subscribe(stuData => this.studentData = stuData);
+        console.log(this.studentData);
+        this._sharedData.currUpldData.subscribe(files => this.uploadedFiles = files);
+        console.log(this.uploadedFiles);
+    }
+    ngAfterViewInit() {
+        //Called after ngAfterContentInit when the component's view has been initialized. Applies to components only.
+        //Add 'implements AfterViewInit' to the class.
+        // const photoUrl = URL.createObjectURL(this.uploadedFiles[1]);
+        // const signUrl = URL.createObjectURL(this.uploadedFiles[2]);
+        for (const file of this.uploadedFiles) {
+            let reader = new FileReader();
+            reader.onload = (function (theFile) {
+                return function (e) {
+                    const span = document.createElement('span');
+                    span.innerHTML = `<img src="${e.target.result}" alt="uploaded-image" width="124px">`;
+                    if (file.finalName === 'photo') {
+                        document.getElementById('photo').appendChild(span);
+                    }
+                    else if (file.finalName === 'signature') {
+                        document.getElementById('signature').appendChild(span);
+                    }
+                };
+            })(file);
+            reader.readAsDataURL(file);
+        }
+    }
+    print() {
+        window.print();
+    }
+};
+PreviewComponent.ctorParameters = () => [
+    { type: _data_share_service__WEBPACK_IMPORTED_MODULE_2__["DataShareService"] }
+];
+PreviewComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-preview',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./preview.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/preview/preview.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./preview.component.scss */ "./src/app/preview/preview.component.scss")).default]
+    })
+], PreviewComponent);
+
+
+
+/***/ }),
+
 /***/ "./src/app/register/register.component.scss":
 /*!**************************************************!*\
   !*** ./src/app/register/register.component.scss ***!
@@ -1042,12 +1339,13 @@ let StudentRegistrationService = class StudentRegistrationService {
     constructor(_http) {
         this._http = _http;
         this.studentRegUrl = "http://localhost:3000/home";
+        this.centerUrl = "http://localhost:3000/center";
     }
     studentReg(student) {
         return this._http.post(this.studentRegUrl, student);
     }
     getCenterData() {
-        return this._http.get(this.studentRegUrl);
+        return this._http.get(this.centerUrl);
     }
 };
 StudentRegistrationService.ctorParameters = () => [
@@ -1059,6 +1357,24 @@ StudentRegistrationService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     })
 ], StudentRegistrationService);
 
+
+
+/***/ }),
+
+/***/ "./src/app/studentInfo.ts":
+/*!********************************!*\
+  !*** ./src/app/studentInfo.ts ***!
+  \********************************/
+/*! exports provided: StudentInfo */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StudentInfo", function() { return StudentInfo; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+
+class StudentInfo {
+}
 
 
 /***/ }),
