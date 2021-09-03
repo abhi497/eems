@@ -5,6 +5,8 @@ import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { AuthGuard } from './auth.guard';
+import { FileUploadComponent } from './file-upload/file-upload.component';
+import { PreviewComponent } from './preview/preview.component';
 
 
 const routes: Routes = [
@@ -12,6 +14,8 @@ const routes: Routes = [
   { path: 'register', component: RegisterComponent },
   { path: 'login', component: LoginComponent },
   { path: 'home', component: HomeComponent, canActivate: [AuthGuard] },
+  { path: 'file-upload', component: FileUploadComponent },
+  { path: 'preview', component: PreviewComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
 

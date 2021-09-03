@@ -10,6 +10,8 @@ import { AuthService } from './auth.service';
 import { StudentRegistrationService } from './student-registration.service';
 import { AuthGuard } from './auth.guard';
 import { TokenInterceptorService } from './token-interceptor.service';
+import { FileUploadComponent } from './file-upload/file-upload.component';
+import { PreviewComponent } from './preview/preview.component';
 
 
 @NgModule({
@@ -18,6 +20,8 @@ import { TokenInterceptorService } from './token-interceptor.service';
     HeaderComponent,
     FooterComponent,
     routingComponent,
+    FileUploadComponent,
+    PreviewComponent,
   ],
   imports: [
     BrowserModule,

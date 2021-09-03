@@ -8,6 +8,7 @@ import { Observable } from 'rxjs';
 export class StudentRegistrationService {
 
   private studentRegUrl = "http://localhost:3000/home";
+  private centerUrl = "http://localhost:3000/center";
 
   constructor(private _http: HttpClient) { }
 
@@ -16,6 +17,6 @@ export class StudentRegistrationService {
   }
 
   getCenterData(){
-    return this._http.get(this.studentRegUrl);
+    return this._http.get(this.centerUrl);
   }
 }
