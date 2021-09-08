@@ -627,8 +627,8 @@ let AuthService = class AuthService {
     constructor(_http, _router) {
         this._http = _http;
         this._router = _router;
-        this.registerUrl = 'http://localhost:3000/register';
-        this.loginUrl = 'http://localhost:3000/login';
+        this.registerUrl = 'https://eems-heroku.herokuapp.com/register';
+        this.loginUrl = 'https://eems-heroku.herokuapp.com/login';
     }
     register(user) {
         return this._http.post(this.registerUrl, user);
@@ -773,7 +773,7 @@ let FileUploadComponent = class FileUploadComponent {
         for (const file of this.files) {
             const fd = new FormData();
             fd.append('file', file);
-            this._http.post('http://localhost:3000/file-upload', fd)
+            this._http.post('https://eems-heroku.herokuapp.com/file-upload', fd)
                 .subscribe(res => { console.log(res); }, err => { console.log(err); });
         }
         this._route.navigate(['/preview']);
