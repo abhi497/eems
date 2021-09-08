@@ -1338,8 +1338,8 @@ __webpack_require__.r(__webpack_exports__);
 let StudentRegistrationService = class StudentRegistrationService {
     constructor(_http) {
         this._http = _http;
-        this.studentRegUrl = "http://localhost:3000/home";
-        this.centerUrl = "http://localhost:3000/center";
+        this.studentRegUrl = "https://eems-heroku.herokuapp.com/home";
+        this.centerUrl = "https://eems-heroku.herokuapp.com/center";
     }
     studentReg(student) {
         return this._http.post(this.studentRegUrl, student);
