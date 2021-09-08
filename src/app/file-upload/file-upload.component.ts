@@ -48,7 +48,7 @@ export class FileUploadComponent implements OnInit {
     for(const file of this.files) {
       const fd = new FormData();
       fd.append('file' , file);
-      this._http.post('http://localhost:3000/file-upload', fd)
+      this._http.post('https://eems-heroku.herokuapp.com/file-upload', fd)
       .subscribe(
         res => { console.log(res) },
         err => { console.log(err) }

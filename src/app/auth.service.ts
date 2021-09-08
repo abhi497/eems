@@ -7,8 +7,8 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class AuthService {
-  private registerUrl = 'http://localhost:3000/register';
-  private loginUrl = 'http://localhost:3000/login';
+  private registerUrl = 'https://eems-heroku.herokuapp.com/register';
+  private loginUrl = 'https://eems-heroku.herokuapp.com/login';
   constructor(private _http : HttpClient, private _router : Router) { }
 
   register(user): Observable<any>{
